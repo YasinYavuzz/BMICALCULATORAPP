@@ -119,6 +119,43 @@ class _DetailScreenState extends State<DetailScreen> {
               ],
             ),
           ),
+          GestureDetector(
+            onTap: () {
+              Navigator.pop(context, true);
+            },
+            child: Container(
+              alignment: Alignment.center,
+              margin: EdgeInsets.only(top: 160),
+              width: 350,
+              height: 50,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(right: 6),
+                    child: Icon(
+                      Icons.refresh,
+                      color: Colors.white,
+                      size: 20,
+                    ),
+                  ),
+                  Text(
+                    "Start over",
+                    style: TextStyle(
+                        color: Color.fromARGB(255, 250, 245, 245),
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Color(0xff468FF8),
+                  ),
+                  color: Color(0xff468FF8),
+                  borderRadius: BorderRadius.circular(30)),
+            ),
+          ),
         ],
       ),
     );
