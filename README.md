@@ -1,3 +1,4 @@
+![bmi-calculator-gitkraken](https://user-images.githubusercontent.com/44232805/194757554-56d81d36-4c72-4ac7-846c-0737a02223df.PNG)
 # bmi_app
 
 A new Flutter project.
